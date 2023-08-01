@@ -4,9 +4,11 @@
 
 let a = 10;
 let b = 29;
+let hold
 
-a = 29;
-b = 10;
+hold = a
+a = b
+b = hold
 
 console.log(a);
 console.log(b);
